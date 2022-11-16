@@ -1,0 +1,23 @@
+jadi di html itu terdiri beberapa elemen, salah satu elemen yang ada pada html adalah tag.
+tag terdiri dari tag pembuka, isi, tag penutup. kalo bingung templatenya kayak gini:
+
+<tag> isi </tag>
+
+format dari penulisan html yang benar adalah
+
+<html>
+	<head>
+	</head>
+
+	<body>
+	</body>
+</html>
+
+disini bakal gw jabarin sesuai dengan poin-poin yang gw dapet selama pembelajaran.
+
+1. penulisan elemen pada html dilakukan didalam tag <html></html>
+2. pada tag <head></head> ini memberikan informasi yang dibutuhkan oleh website, seperti title dari web, css, 
+	dan bootstrap.
+3. jadi yang ada pada tag <head></head> tidak akan ditampilkan di konten website
+4. pada tag <body></body> ini dimana kita mengisi konten yang akan ditampilkan pada halaman website
+5. jadi jika kita ingin menampilkan sesuatu pada halaman web, kita harus mengisinya pada tag <body></body>

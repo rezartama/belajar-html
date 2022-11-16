@@ -1,0 +1,25 @@
+pada pembelajaran ini gw belajar tentang tag untuk isi konten pada website atau tag yang digunakan pada tag
+<body></body>
+tag yang dipelajarin ini adalah 2 tag dasar yaitu heading dan paragraph, sesuai namanya dua tag ini berfungsi 
+untuk menampilkan tulisan atau kata kata pada website kita. biar lebih jelas bakal gw bikin poin dibawah ini:
+
+1. heading
+	tag heading memiliki kode <h1>Heading</h1>. sesuai namanya tag ini berfungsi untuk menjadi judul dari sebuah
+	paragraf, atau memberi tau hal penting dari suatu konten. head mempunyai 6 buah jenis yang semakin besar
+	angkanya maka akan semakin kecil ukuran dari headingnya. 
+
+		- <h1>Heading</h1>
+		- <h2>Heading</h2>
+		- <h3>Heading</h3>
+		- <h4>Heading</h4>
+		- <h5>Heading</h5>
+		- <h6>Heading</h6>
+
+2. paragraph
+	tag paragraph berfungsi untuk menulis sebuah kalimat atau kata pada konten website kita, ini merupakan best 
+	practice apabila ingin menampilkan tulisan atau kata kata pada website kita, dan yang pasti ini lebih 
+	dianjurkan daripada tidak menggunakan tag sama sekali.
+
+	<p>kita bisa menuliskan paragraf untuk konten website kita disini</p>
+
+DONE SEKIAN 
