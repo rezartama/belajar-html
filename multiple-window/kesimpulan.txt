@@ -1,0 +1,36 @@
+PADA PEMBELAJARAN HARI INI GW BELAJAR TENTANG MULTIPLE WINDOW PADA HTML
+
+paham kan ya maksudnya multiple window? jadi aplikasi gw punya lebih dari satu halaman gitu lohh. keren kann? jelass
+nah gimana caranya tuh ca? oke gw jelasin.
+
+jadi kita bikin file html baru selain index.html, buat apa ini? ini nanti bakal buat kita ngatur tampilan halaman keduanya
+jadi file kedua sama pertama udah gaada hubungannya, mereka punya filenya sendiri sendiri. 
+
+nah kalo filenya udah ada dua inget dong cara hubunginnya make apa? yup betul make attribute href. jadi kita bikin tag a 
+terus kasih attribute href yang nilainya adalah nama dari file html kita. contohnya gini
+
+<a href="contact.html">Contact</a>
+
+nah jadi kayak gitu bentuknya, tapii kalo misalkan file html lain kita itu ada di dalem folder berbeda itu jadi gini.
+
+<a href="menu/contact.html">Contact</a>
+
+kayak biasa, kita nambahin nama foldernya sebelum nama destinasi dari file yang dituju, nah tapi yang jadi kendala 
+adalah kalo kita pergi menuju file yang mempunyai sebuah folder sendiri. url atau directorynya akan ada didalam file 
+tersebut. jadi kita kalo kembali ke index yang tidak ada didalam file akan error jika menulis codenya seperti ini
+
+<a href="index.html">Home</a>
+
+ini akan error karena sebelumnya kita sudah masuk kedalam folder menu untuk pergi ke halaman contact.html, nah ketika di
+halaman contact.html kita menekan tulisan Home yang mana akan menuju index.html, browser akan mencari file index.html
+di dalam folder menu bukan pada folder utama aplikasi. jadi kita harus kembali ke folder awal terlebih dahulu. caranya
+kayak gini.
+
+<a href="../index.html">Home<a/>
+
+tanda "../" mempunyai fungsi back satu folder ke folder sebelumnya, jika dua maka jadi seperti ini "../../", dan 
+seterusnya. jadi pada perpindahan halaman ini perlu sedikit ketelitian dimana kita menuliskan alamat atau destinasi
+file yang dituju agar dapat sesuai dengan folder yang akan dituju dan folder mana yang sedang berjalan saat file
+dijalankan pada browser
+
+SEKIAN DARI PEMBELAJARAN INII

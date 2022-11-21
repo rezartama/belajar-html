@@ -1,0 +1,51 @@
+PADA PEMBELAJARAN KALI INI GW BELAJAR TENTANG TAG TABLE
+
+jadi tag ini adalah salah satu tag yang bakal banyak banget dipake dan pasti dipake diperusahaan apalagi yang berbasis
+buat pengolahan data gitu, nah tag table ini berfungsi untuk membuat table pada halaman html atau halaman website.
+bentuknya kayak gini
+
+<table></table>
+
+udah gitu aja wkwk, tapii itu gabakal ada apa apa dan gabakal ada isinya karena apa, dia gaada bordernya. cara ngasih 
+bordernya itu dengan cara dari attribute, terus buat nentuin judull dan lain lainnya itu ada di dalam konten tag table 
+itu sendiri oke gw kasih contoh
+
+<table border="1">
+	<thead>
+		<tr>
+			<th>no</th>
+			<th>nama</th>
+			<th>umur</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>eca</td>
+			<td>22</td>
+		</tr>
+	</tbody>
+</table>
+
+oke gw jelasin satu satu per point.
+
+1. <thead></thead>
+	tag ini berfungsi cuma untuk penanda dari bagian table, tag <thead> ini biasanya diisi oleh judul dari isi table.
+	tapi tag ini tidak akan membuat tulisan pada judul table menjadi bold atau tebal. hanya sebagai penanda saja.
+
+2. <tbody></tbody>
+	tag ini berfungsu cuma untuk penanda dari bagian table, tag <tbody> ini biasanya diisi oleh isi konten dari table.
+	tag ini hanya sebagai penanda agar bagian dari table dapat tersusun rapih antara head dan body.
+
+3. <tr></tr> 
+	tag ini berfungsi sebagai pembuat baris pada sebuah table, tanpa membuat baris kita tidak bisa membuat judu pada
+	bagian atas, hingga isi dari table tersebut. maka dari itu tag <tr> jangan sampai terlupakan.
+
+4. <th></th>
+	tag ini berfungsi untuk membuat kolom yang ada pada baris sebuah table, tag ini akan membuat isi dari kolom 
+	menjadi bold atau tebal maka dari itu ini dinamakan tag th atau table head yang mana sebagai judul dari kolom.
+
+5. <td></td>
+	tag ini berfungsi untuk membuat kolom yang ada pada baris sebuah table, tag ini digunakan untuk membuat isi konten
+	dari table yang sudah disiapkan. sesuai nama dari tag td atau table data, tag ini berfungsi untuk menampilkan data 
+	apa saja yang pada table.
