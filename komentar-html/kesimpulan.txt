@@ -1,0 +1,9 @@
+PEMBELAJARAN HARI INI ADALAH TENTANG KOMENTAR
+
+komentar pada setiap bahasa pemrograman adalah untuk memberikan penanda dari sebuah program.
+kayak contoh misalnya ada code yang kurang dipahami flownya karena syntaxnya agak bingungin itu bisa dikasih 
+komentar, kayak bagian ini berfungsi untuk melakukan proses apa. terus bisa juga kayak service ini dibuat oleh
+siapa, kapan, terus diedit oleh siapa. jadi emang sebagai penanda.
+
+komentar ini gabakal bisa dilihat oleh user karena tidak akan muncul pada sisi client, jadi ini hanya untuk
+developer saja, bisa sebagai note atau penanda seperti yang dibilang tadi.

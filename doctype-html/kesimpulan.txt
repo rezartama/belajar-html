@@ -1,0 +1,11 @@
+PEMBELAJARAN HARI INI DALAH TENTANG VERSI HTML
+
+kalian pasti taulah tag <html><body><head>
+tapiii <!DOCTYPE html> tuh apa sih yang ada diatas?
+
+jadii itu tuh adalah tag yang memberikan informasi ke browser kalo file html yang kita pake ini menggunakan 
+html versi 5, udah gitu doang wkwkwk
+soalnya setiap versi punya perbedaan masing masing
+nah disini kita make versi 5, dan cara ngasih tau browsernya gitu doang wkwk
+
+udah sekian aja

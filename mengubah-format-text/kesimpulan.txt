@@ -1,0 +1,12 @@
+PADA PEMBELAJARAN KALI INI GW BELAJAR TENTANG PENGGUNAAN FORMAT TEXT PADA PARAGRAPH
+
+jadi ini kayak nambahin format pada paragraph atau text di website kayak bold, italic, underline gitu lohh
+nih gw jelasin satu satu
+
+1. <b></b>
+	tag <b></b> ini berfungsi untuk mengubah tulisan di halaman website kita jadi bold atau tebal.
+
+2. <i></i>
+	tag <i></i> ini berfungsi untuk mengubah tulisan di halaman website kita menjadi italic atau cetak miring.
+
+3. <em></em>

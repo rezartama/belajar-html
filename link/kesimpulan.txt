@@ -1,0 +1,18 @@
+KESIMPULAN DARI ATRIBUT LINK PADA TAG DI HTML
+
+jadi cara agar kita bisa mengarahkan user ke sebuah halaman baru, halaman lain, atau bahkan website lain adalah
+dengan cara menambahkan atribut pada tag yang ada di html, pada kasus ini biasanya saya menggunakan tag <a></a>
+
+atribut tuh apa sih? kamu nanya? kamu bertanya-tanya? oke sini aku kasih tau ya
+atribut adalah tambahan pada tag yang ada di html yang berfungsi untuk menambahkan fitur pada tag yang ada.
+contohnya seperti apabila di klik akan ada aksi, atau untuk menambahkan style, dan juga memindahkan kita ke halaman
+lain. bentuk dari attribut tuh kurang lebih kayak gini
+
+<tag attribute="aksi"> isi </tag>
+
+jadi penulisan attribute ada di dalam tag awal, dan setelah penulisan tag.
+untuk memindahkan sebuah halaman ke halaman atau bahkan website lain adalah seperti berikut:
+
+<a href="https://youtube.com">Youtube</a>
+
+pada kasus link kali ini pada aksi di attribut kita menuliskan link dari halaman atau website yang ingin dituju.

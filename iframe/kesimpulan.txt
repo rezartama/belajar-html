@@ -1,0 +1,20 @@
+PEMBELAJARAN HARI INI ADALAH TENTANG IFRAME
+
+iframe tuh sama kayak iphone atau icolor ca? ya bukan dongg.
+jadi i frame ituu kayak kita menampilkan sedikit halaman website di halaman kita. for example misalkan kita punya
+website tutorial coding, nah disitu ada tutorial tertulisnya dari awal sampe akhir, kebetulan juga kita punya konten
+youtube tutorial coding tersebut, nah itu bisa ditampilin di website kita dengan menggunakan iframe, nanti ukurannya
+bisa kita sesuaikan. nih bentuk format iframe tuh gini.
+
+<iframe src="https://youtube.com" height="480" width="240></iframe>
+
+loh ca itu kok isi kontennya kosong? good, jadi itu kurang lebih sama kayak tag <img> jadi kita menampilkan 
+kontennya di bagian attribute, lebih tepatnya di bagian src sama kayak tag <img>.
+dan disini bisa ngatur ukuran juga sesuai dengan yang kalian mau.
+
+oiya ada catatan kalo disini gabisa semua website ditampilin menggunakan iframe, kayak youtube itu gabisa ditampilin
+twitter juga, mungkin mereka punya keamanan biar ga bisa segampang itu buat diakses.
+
+udah si gitu aja wkwkwk
+
+pokoknya ini buat menampilkan halaman website lain di sebagian halaman website kita.

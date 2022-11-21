@@ -1,0 +1,37 @@
+OKE PADA PEMBELAJARAN INI LUMAYAN SERU KARENA BELAJAR ELEMENT BLOCK DAN INLINE
+
+maksudnya apa tuh element block dan inline? oke disini gw jelasin satu satu so check it out
+
+1. ELEMENT BLOCK
+	element block adalah element atau tag yang menggunakan satu barus penuh pada halaman web browser. maksudnya
+	gimana tuh? maksudnya tuh jadi kayak misalkan kita nulis sebuah tag atau element yang merupakan element block
+	maka walaupun isi kontennya tidak memenuhi satu baris halaman website full maka tag selanjutnya tetap akan 
+	berada dibagian bawah dari tag tersebut. contohnya nih
+	- heading (<h1></h1> dan seterusnya>)
+	- paragraph
+	- dll
+
+2. ELEMENT INLINE 
+	kebalikan dari element block, element inline adalah element atau tag yang panjang dari elemennya sesuai dengan
+	isi konten yang ada pada tag tersebut. jadi tag setelahnya akan berada disebelah element inline tersebut, 
+	bukan dibagian bawahnya. tetapi apabila tag selanjutnya merupakan element block, element block tersebut akan
+	berada dibagian bawah, karena element block memiliki panjang satu halaman browser. contohnya nih
+	- <a></a>
+	- <img>
+
+nah jadi udah tau nih yaa ada dua jenis element pada tag html. tapii ga berhenti disituu, di HTML tuh kita bisa 
+bikin divisi atau pengelompokan pada element biar kesusun rapih gitu. maksudnya kayak apa ya ca? kayak gini deh.
+kalian pernah liat youtube kan? itu bagian tengah bagian navbar, bagian sidebar, dan rekomendasi antar kategori 
+terusun rapih kan? nah itu make yang namanya divisi atau pengelompokan di html. ada dua cara mengelompokkan 
+tag atau element pada html, dan kedua cara ini mempunyai ciri khas masing masing
+
+1. <div></div> (block element)
+	yang pertama ada tag <div></div>, nah tag ini yang paling sering digunain buat ngelompokkin bagian bagian 
+	besar yang ada di website kita, dia ini bersifat block element, jadi makanya digunain banget buat 
+	pengelompokkan di website.
+
+2. <span></span> (inline element)
+	tag <span></span> ini mempunyai sifat inline element. udah pada paham kan maksudnya? karena ini inline jadi
+	apabila ada tag selanjutnya yang inline maka akan melanjutkan dalam satu baris. jadi penggunaan tag 
+	<span></span> ini digunakan untuk melakukan pengelompokkan kecil, seperti di sebuah kalimat pada paragraf 
+	atau pada tag yang mempunyai element inline lainnya.

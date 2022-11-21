@@ -1,0 +1,21 @@
+KESIMPULAN CARA MENAMPILKAN GAMBAR DI HTML
+
+jadi cara menampilkan gambar di html adalah cara paling mudah dibangingkan menampilkan di tempat lain, kayak 
+android misalnya. disini tuh gampang banget, tinggal pake tag yang namanya <img>. 
+
+seriously? <img> doang? tag penutupnya mana ca? nahh untuk img emang ga make tag penutup, ini udah bawaan dari sana.
+terus cara kita isi konten gambarnya gimana dong ca kalo gitu? oke sini gw jelasin.
+jadii inget kan tadi, selain ditengah tag ada something called attribute? nah kita bakal naroh lokasi gambar kita 
+di attribute inii.
+jadi kalo nampilin gambar tuh yang kita tulis cuma lokasi dan nama dari gambar tersebut. nih contohnya
+
+<img src="img/bondol.jpg" alt="gambar default">
+
+1. attribute src adalah attribute dimana kita ngasih tau letak, dan juga nama file yang akan kita tampilkan.
+2. jika gambar yang ingin kita load ada didalam sebuah folder, kita hanya perlu menambahkan nama folder sebelum
+	nama gambar, contohnya
+	src="file/subfile/bondol.jpg"
+3. attribute alt berfungsi apabila gambar yang ditampilkan di web tidak berhasil ditampilkan pada sisi user
+4. contoh penggunaan attribute alt adalah seperti ini
+	alt="gambar default"
+5. apabila gambar tidak dapat diload atau ditampilkan, maka akan memunculkan tulisan "gambar default"
