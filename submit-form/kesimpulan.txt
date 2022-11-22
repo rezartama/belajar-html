@@ -1,0 +1,20 @@
+PADA PEMEBELAJARAN KALI INI TENTANG SUBMIT FORM
+
+setelah kita mengisi semua data yang sudah disediakan pada suatu form, kita pasti akan melakukan submit untuk
+mengirimkan data ke server atau database, untuk mengirimkan data itu kita membutuhkan sebuah tombol.
+disini kita menggunakan input dengan type submit untuk mengirimkan data. bentuknya seperti ini
+
+<input type="submit" value="Submit Data">
+
+jadi setelah kita menekan tombol input submit data ini nanti halaman akan melakukan refresh namun belum ada aksi 
+apa-apa yang dijalankan oleh website, ini masih hanya untuk tampilan saja belum ada logic yang digunakan.
+
+kemudian ada sebuah tag yang dapat digunakan untuk memberikan kotak pada form agar rapih sehingga dapat diketahui 
+bahwa itu adalah field untuk mengisi form. tag tersebut adalah
+
+<fieldset>
+	<legend>form pengisian data</legend>
+</fieldset>
+
+tag <legend> berfungsi untuk memberikan tulisan pada garis bagian atas untuk memberi tahu ini field untuk mengisi 
+data apa.

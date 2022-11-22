@@ -1,0 +1,18 @@
+PEMBELAJARAN KALI INI ADALAH TENTANG ENTITIES
+
+entities yang ini bukan entities model database kok, tapi adalah kode untuk memunculkan symbol, tambahan spasi, dan 
+character yang ada di html.
+
+sebelum bisa memunculkan kode entities kita perlu memberikan informasi pada file html bahwa akan menggunakan 
+entities. kita perlu menambahkan tag ini di html, khususnya html 5
+
+<meta charset="UTF-8">
+
+kode untuk memunculkan entities ini pasti diawali dengan format '&' dan diakhiri dengan titik koma ';'
+
+&copy;
+&nbsp;
+
+dua itu adalah salah satu dari beberapa entities yang ada di html
+
+sekian.

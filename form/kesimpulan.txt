@@ -1,0 +1,34 @@
+PADA PEMBELAJARAN KALI INI ADALAH TENTANG FORM PENGISIAN INPUT KHUSUSNYA TEXT
+
+jadi kalo kita mau melakukan pengisian data atau membuat sebuah form pada website, kita perlu membuat sebuah tag
+bernama 
+
+<form></form>
+
+tag ini akan memberi tahu pada website bahwa yang ada di dalam tag ini adalah berisi input yang ada pada form dan 
+dapat dikirimkan menjadi data.
+
+kemudian untuk membuat inputan text atau text field untuk mengisi text yang tidak terlalu panjang seperti data-
+data nama, username, password, atau data yang tidak seperti paragraph kita bisa menggunakan tag input, bentuk tagnya
+seperti ini
+
+<input type="text" placeholder="username" value="eca">
+
+ya benar, tag input ga pake tag penutup, dan kalo kalian mau kasih nilai defaultnya bisa bikin attribute yang 
+namanya value, disana kalian bisa isi nilai defaultnya, terus kalo mau bikin place holder buat ngasih tau input
+ini buat ngisi data apa, itu bisa kalian tambahin attribute placeholder terus kalian isi pesannya, yang paling 
+penting nih namanya attribute type, ini adalah attribute untuk menentukan inputan ini akan menerima inputan atau
+data apa, entah text, password, hidden, dll.
+
+kemudian kalo kita mau ngisi data yang mempunyai banyak data atau banyak kalimat seperti paragraf atau biodata,
+disarankan atau best practicenya menggunakan tag yang namanya
+
+<textarea placeholder="isi biodata disini" cols="30" rows="10">nih defaultnya</textarea>
+
+keliatan kan ya perbedaannya disini, kalo input gapake tag penutup kalo textarea dia paka tag penutup, buat ngasih
+place holder atau informasi untuk diisi apa text area ini bisa kita tambahkan attribute placeholder, dan untuk 
+membuat nilai default kita bisa langsung mengisi di isi konten atau diantara tag pembuka dan penutup. 
+kita juga bisa mengatur ukuran dari textarea ini. tetapi caranya tidak dengan menggunakan height, dan width.
+melainkan menggunakan cols dan rows. ini untuk menentukan berapa jumlah kolom dan baris yang akan digunakan pada
+textarea.
+

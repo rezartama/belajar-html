@@ -1,0 +1,15 @@
+PADA PEMBELAJARAN KALI INI ADALAH TENTANG LABEL DAN INPUT TEXT
+
+pasti kalian pernah liat kan kalo di dalam sebuah form sebelum input text biasanya ada sebuah text untuk memberitau
+input text ini untuk mengisi apa, untuk memberikan tulisan itu kita tidak menggunakan tag <p> melainkan menggunakan
+tag yang bernama
+
+<label for="username">Username: </label>
+<input type="text" placeholder="username" id="username">
+
+kalo fungsinya cuma buat informasi text gitu kenapa ga make tag <p> aja ca? nice question. jadi kalo kita make tag
+<label> ini, misalkan kita klik di tulisan usernamenya kita langsung diarahkan ke input text untuk usernamenya, 
+nah ini yang membedakan dan kenapa untuk form lebih baik menggunakan label supaya dapat mengarahkan langsung ke 
+input text.
+untuk menghubungkan antara label dan input text adalah dengan menyamakan antara attribute id dari input, dan
+attribute for pada label.

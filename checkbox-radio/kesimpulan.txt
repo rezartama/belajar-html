@@ -1,0 +1,28 @@
+PEMBELAJARAN KALI INI ADALAH TENTANG CHECK BOX DAN RADIO BOX
+
+check box adalah sebuah input untuk memilih lebih dari satu jawaban dengan cara memberikan check pada tiap item
+jawaban yang dipilih, bisa digunakan untuk pemilihan bahasa pemrograman apa saja yang kita kuasai.
+contoh tag check box adalah sebagai berikut:
+
+<input type="checkbox" name="bahasa_pemrograman" value="0" checked>
+<input type="checkbox" name="bahasa_pemrograman" value="1">
+<input type="checkbox" name="bahasa_pemrograman" value="2">
+
+attribute name digunakan untuk memberi tahu bahwa input ini tergabung dengan nama bahasa_pemrograman, jadi apabila
+ada lebih dari satu item checkbox yang mana ada di satu pemilihan maka mereka harus mempunyai attribute name yang 
+sama, dan untuk membedakan tiap item dari checkbox adalah dengan memberikan attribute value yang berbeda pada tiap
+itemnya.
+
+radio box adalah sebuah input yang hanya dapat memlih salah satu dari jawaban yang disediakan. contoh penggunaan
+radio box adalah dalam pemilihan gender sebuah form. contoh tag radio box adalah sebagai berikut:
+
+<input type="radio" name="gender" value="0" checked> 
+<input type="radio" name="gender" value="1">
+
+attribute type radio hanya akan bisa memilih salah satu item dari tiap radio boxnya, cara supaya website mengetahui 
+input radio box mana yang satu inputan adalah dengan memberikan attribute name yang sama, sehingga jika terdapat
+lebih dari satu item radio box maka hanya satu item yang dapat dipilih.
+
+dan di akhir kalian melihat attribute checked. attribute checked berfungsi apabila user membuka aplikasi maka item
+tersebut yang dipilih di tiap bagian item input. 
+

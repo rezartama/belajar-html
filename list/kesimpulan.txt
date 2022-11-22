@@ -1,0 +1,29 @@
+PADA PEMBELAJARAN KALI INI BELAJAR TENTANG LIST
+
+bedanya list sama table apa ca? yaa beda dong, kalo table kita bikin table yang mana isi dari kontennya nanti ada
+di dalam table, tapi kalo list yaa kita bikin list aja gitu, kayak kalo mau main bola kan ada listnya tuh, nah 
+nanti listnya itu bakal ditampilin di website kita. btw ada tiga jenis atau tiga cara bikin list, nih gw kasih tau:
+
+1. UNORDERED LIST <ul></ul>
+	unordered list itu adalah list yang tidak mempunyai urutan, jadi nanti kalo kita bikin list item didalam tag
+	<ul> ini data yang ditampilkan ga dalam nomor tapi kayak strip atau titik gitu buat nandain tiap listnya.
+
+2. ORDERED LIST <ol></ol>
+	ordered list itu adalah list yang mempunyai urutan seperti list biasa, kalo ini baru setiap list item yang 
+	ada di dalam tag <ol> bakal ada nomernya kayak 1 dst, atau alphabet, bahkan huruf romawi juga.
+
+3. LIST ITEM <li></li>
+	list item adalah isi dari konten list yang sudah kita buat, disini lah data data kita akan dimunculkan 
+	kayak misalkan mau munculin 4 list, ya berarti bikin 4 list item.
+
+4. DATA LIST <dl></dl>
+	data list adalah tag list untuk memunculkan data biasa, tidak dalam bentuk list yang mempunyai penanda seperti 
+	<ul> atau <ol> jadi ini bakal ngasih tau datanya aja tanpa ada penanda di awal.
+
+5. DATA TERM <dt></dt>
+	data term adalah tag untuk membuat isi dari konten data list, disini nama data inti yang ingin ditampilkan
+	dapat kita tulis pada tag ini
+
+6. DATA DESCRIPTION <dd></dd>
+	data description adalah tag untuk membuat deskripsi dari tag data term atau <dt>. isi dari konten <dt>
+	akan ditampilkan setelah tag <dt> dan diberikan jarak satu tab.

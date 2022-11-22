@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit form</title>
+</head>
+<body>
+    
+    <h2>Submit Form</h2>
+
+    <form action="">
+        <fieldset>
+            <legend>Personal Data</legend>
+            <label for="username">Username: </label>
+            <input type="text" placeholder="username" id="username">
+            <br><br>
+            <label for="biodata">Biodata: </label>
+            <textarea name="" id="biodata" cols="30" rows="10" placeholder="biodata"></textarea>
+            <br><br>
+    
+            <h4>input type checkbox</h4>
+            <input type="checkbox" name="position" id="" value="0" checked>forward <br>
+            <input type="checkbox" name="position" id="" value="1">midfielder <br>
+            <input type="checkbox" name="position" id="" value="2">defender <br>
+            <input type="checkbox" name="position" id="" value="3">goalkeeper <br>
+        
+            <h4>input type radio box</h4>
+            <input type="radio" name="gender" id="" value="0" checked> Male <br>
+            <input type="radio" name="gender" id="" value="1"> Female    
+        
+            <h4>select option (dropdown)</h4>
+            <label for="education">Programming Language:</label>
+            <select>
+                <optgroup label="frontend">
+                    <option value="js">JavaScript</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                </optgroup>
+            
+                <optgroup label="backend">
+                    <option value="java">Java</option>
+                    <option value="php">PHP</option>
+                    <option value="python">Python</option>
+                </optgroup>
+            </select> 
+
+            <br><br>
+            <input type="submit" name="" id="" value="Submit Data">
+        </fieldset>
+    </form>
+        
+
+</body>
+</html>

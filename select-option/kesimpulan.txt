@@ -1,0 +1,25 @@
+PADA PEMBELAJARAN KALI INI ADALAH TENTANG INPUT DROPDOWN ATAU SELECT OPTION
+
+kalo kita mau bikin input dengan type dropdown itu kita bisa make select option ini jadii kita ga make tag input
+tapi pake tag select dan option, bentuknya kayak gini
+
+<select>
+	<optgroup label="frontend">
+		<option value="js">JavaScript</option>
+		<option value="html">HTML</option>
+	</optgroup>
+
+	<optgroup label="backend">
+		<option value="java">Java</option>
+		<option value="php">PHP</option>
+	</optgroup>
+</select>
+
+oke kita breakdown satu satu:
+
+1. tag <select></select> adalah tag yang berfungsi untuk membuat dropdown
+2. tag <option></option> adalah tag yang berfungsi untuk membuat isi atau nilai yang ada pada dropdown
+3. tag <optgroup></optgroup> adalah tag yang berfungsi untku memberikan pengelompokkan pada isi dropdown bila
+	dibutuhkan'
+4. attribute value berfungsi untuk memberikan nilai atau pengenal pada tiap tiap isi dropdown
+
